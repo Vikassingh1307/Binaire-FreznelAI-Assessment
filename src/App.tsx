@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/Binaire-FreznelAI-Assessment">
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-[#1b2838] font-sans flex flex-col">
         {!isOnline && (
           <div className="bg-[#a84732] text-white text-center py-2 text-sm font-semibold uppercase tracking-wider sticky top-0 z-50">
