@@ -69,7 +69,7 @@ export function Search() {
           {loading ? (
             <div className="text-center py-10 animate-pulse bg-[#1b2838] text-white">Searching the store...</div>
           ) : (
-            games.map((game, index) => (
+            games.map((game) => (
               <a 
                 href="#" 
                 key={game.id} 

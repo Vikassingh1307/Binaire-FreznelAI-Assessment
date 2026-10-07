@@ -1,5 +1,3 @@
-import { tmdbClient } from '../services/apiClient';
-
 // Fallback data if TMDB API key is missing
 export const FALLBACK_DATA = {
   page: 1,
